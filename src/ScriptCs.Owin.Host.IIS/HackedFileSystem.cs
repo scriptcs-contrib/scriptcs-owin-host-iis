@@ -146,7 +146,7 @@ namespace ScriptCs.Owin.Host.IIS
             var codeBase = Assembly.GetExecutingAssembly().CodeBase;
             var uri = new UriBuilder(codeBase);
             var path = Uri.UnescapeDataString(uri.Path);
-            return Path.Combine(Path.GetDirectoryName(path), @"..\scripts\");
+            return Path.Combine(Path.GetDirectoryName(path), @"..\script\");
         }
     }
 }
