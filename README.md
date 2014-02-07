@@ -22,7 +22,8 @@ To run locally just clone the repo, restore packages and start. Remember to put 
 
 You write an application the same way as you would write any other `scriptcs` script - all the syntax is supported (`#r`, `#load`, `Require<T>()` and so on).
 
-The bootstrapper itself is an OWIN `Startup` class so it will start automatically and load your csx. It also exposes (injects into your script) an `IAppBuilder` object you should use to interact with the OWIN environment.
+The bootstrapper itself is an OWIN `Startup` class so it will start automatically and load your csx application. 
+It also exposes (injects into your script) an `IAppBuilder` object you should use to interact with the OWIN environment.
 
 For example:
 
@@ -98,6 +99,8 @@ You can now access your app at:
 
 	GET localhost:{port}/hello
 	GET localhost:{port}/add/5,6
+
+in other words - everything is 100% scripted, you never build any DLLs.
 
 ## Azure Websites
 
