@@ -106,7 +106,10 @@ in other words - everything is 100% scripted, you never build any DLLs.
 
 The whole thing runs on Azure Websites. Just deploy your script + packages.config + packages to the /script folder and the bootstrapper and all its DLLs to /bin.
 
-A demo can be accessed here: [http://scriptcshelios.azurewebsites.net/hello](http://scriptcshelios.azurewebsites.net/hello)
+The same sample shown here is currently running on Azure Websites.
+
+ - hello [http://scriptcshelios.azurewebsites.net/hello](http://scriptcshelios.azurewebsites.net/hello)
+ - adder [http://scriptcshelios.azurewebsites.net/add/3,6](http://scriptcshelios.azurewebsites.net/add/3,6)
 
 ## Next steps
 
