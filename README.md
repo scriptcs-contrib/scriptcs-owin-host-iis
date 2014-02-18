@@ -111,6 +111,11 @@ The same sample shown here is currently running on Azure Websites.
  - hello [http://scriptcshelios.azurewebsites.net/hello](http://scriptcshelios.azurewebsites.net/hello)
  - adder [http://scriptcshelios.azurewebsites.net/add/3,6](http://scriptcshelios.azurewebsites.net/add/3,6)
 
+Another example is Nancy:
+
+ - [demo](http://scriptcsnancy.azurewebsites.net/)
+ - [code](https://gist.github.com/filipw/9046920)
+
 ## Next steps
 
  - create deployment script that will take care of pulling the bootstrapper
